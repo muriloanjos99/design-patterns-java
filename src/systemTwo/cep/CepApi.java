@@ -1,4 +1,4 @@
-package subsistema2.cep;
+package systemTwo.cep;
 
 public class CepApi {
 
@@ -13,10 +13,10 @@ public class CepApi {
 	}
 	
 	public String recuperarCidade(String cep) {
-		return "Araraquara";
+		return "Maringá";
 	}
 	
 	public String recuperarEstado(String cep) {
-		return "SP";
+		return "PR";
 	}
 }
